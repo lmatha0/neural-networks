@@ -6,3 +6,9 @@ protein classification:
 - created from scratch using pandas to load data and numpy to perform calculations. also used scikitlearn to normalize and split data into train/test sets
 - dataset was very large and difficult to clean, resulting in an accuracy of about 58% and a loss that was slightly increasing
 - will extend to a neural network with an arbitrary number of hidden networks using another dataset
+
+protein deeplayer:
+- similar to the above project, but extended to an n number of layers defined by the user
+- used to classify proteins on 5 different structures (structural, transport, enzyme, receptor, other)
+- completed task in pandas to load dataset and numpy to perform calculations
+- note that another model achieved a similar accuracy of 20% (https://www.kaggle.com/code/t8101349/bioinformatics-protein-dataset-analysis)
