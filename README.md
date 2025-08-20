@@ -12,3 +12,9 @@ protein deeplayer:
 - used to classify proteins on 5 different structures (structural, transport, enzyme, receptor, other)
 - completed task in pandas to load dataset and numpy to perform calculations
 - note that another model achieved a similar accuracy of 20% (https://www.kaggle.com/code/t8101349/bioinformatics-protein-dataset-analysis)
+
+RNN_Text_Generation:
+- a basic rnn that was used to generate text based on sequences of a sentence
+- explores concepts used in an rnn such as calculating the activations of each cell and propagating it forward. also calculated backprop to update gradients and sample text
+- used numpy to perform vectorize words and perform calculations for each rnn cell
+- text taken from (https://www.gutenberg.org/files/11/11-0.txt)
